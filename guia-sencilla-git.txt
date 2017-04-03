@@ -1,0 +1,47 @@
+-----------------------------------------------------------
+
+Guia GIT (Lo que tiene que saber todo Programador para Versionar)
+
+Instalamos GIT por consola con el siguiente comando:
+
+apt-get install git
+
+-----------------------------------------------------------
+
+Comenzamos...
+
+git init (unica vez, inicializa el repositorio)
+git add nombre archivo o * (para agregar por unica vez todos los archivos de la carpeta seleccionada en este caso /pong) 
+git commit -m "Un mensaje de cambios" (para llevar los cambios que se realizo con un mensaje)
+git remote add origin https://github.com/Beor18/prueba.git (unica vez, la url te la proporciona github cuando creas un repositorio)
+git push -u origin master (para subir los cambios al repositorio a la rama MASTER)
+
+------------------------------------------------------------
+
+
+Actualizar cambios en github.com 
+
+git status
+git add nombre-de-archivo.py
+git commit -m "Cambios en clase 2"
+git push -u origin master o simplemente git push 
+
+Al hacer git push pide usuario y contraseña de github.com
+
+
+--------------------------------------------------------------
+Comandos utiles:
+
+git status (para verificar los archivos que se cambiaron antes de hacere git push)
+git pull (si alguien cambio un archivo en el repositorio con este comando actualizamos nuestros archivos antes de modifiquemos nosotros)
+git clone "url" (si queremos clonar un repositorio en nuestra computadora)
+
+------------------------------------------------------------------
+
+Esto es una guía muy básica de GIT, esto permite llevar un versionado/cambios en nuestros archivos y poder guardarlos en un repositorio remoto en este caso "github.com"
+
+
+Más información: http://rogerdudler.github.io/git-guide/index.es.html
+
+
+Si me equivoque algo modifiquen este archivo, si lo se soy malo explicando...
